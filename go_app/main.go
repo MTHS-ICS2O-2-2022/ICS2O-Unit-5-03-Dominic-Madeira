@@ -4,22 +4,18 @@
 // This program converts fahrenheit to celsius.
 package main
 
-
 import (
   "fmt"
 )
 
-
 func main() {
   var age int
-
 
   // input
   fmt.Println("This program finds your age rating for movies")
   fmt.Println()
   fmt.Print("Enter your age: ")
   fmt.Scanln(&age)
-
 
   // process
 	if age >= 18 {
@@ -35,5 +31,3 @@ func main() {
 
   fmt.Println("\nDone.")
 }
-
-
